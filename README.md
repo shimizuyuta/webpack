@@ -14,6 +14,16 @@ npm install --save-dev typescript ts-loader webpack webpack-cli webpack-dev-serv
 |  webpack-cli         |  コマンドラインでwebpackを使う  |
 |  webpack-dev-server  |  webpackのビルド開発用・webサーバーの起動・ホットリロード  |
 
+
+|  パッケージ             |  説明 |
+| ---- | ---- |
+|  eslint-config-prettier          |  ESLintとPrettierを併用する際に  |
+|  @typescript-eslint / eslint-plugin  |  ESLintでTSのチェックを行うプラグイン  |
+|  @typescript-eslint / parser     |  ESLintでTSを解析できるようにする  |
+|  husky         |  gitコマンドをフックに別のコマンドを呼び出せる  |
+|  lint-staged   |  commitしたファイルにlintを実行することができる  |
+
+
 **注意事項**
 
 ```
